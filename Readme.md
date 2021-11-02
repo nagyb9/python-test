@@ -27,7 +27,7 @@ Módosítd a forráskódot, hogy a Flask webalkalmazás böngészőben történ�
 
 ## 3. feladat (task-03)
 
-Az `utils.py` fájlban hozz létre egy függvényt: `get_random_number`. Ez a függvény egy 1 és 100 közötti véletlenszerű egész számot adjon vissza. Hozz létre egy `/random` nevű végpontot az `app.py` fáljban, ami egy egyszerű szöveges válaszként ezt a számot adja vissza (vagyis ha újra és újra befrissítjük a [http://localhost:5000/random](http://localhost:5000/random) aloldalt a böngészőben, akkor mindig más és más véletlenszerű számot kapunk). 
+Az `utils.py` fájlban hozz létre egy függvényt: `get_random_number`. Ez a függvény egy 1 és 100 közötti véletlenszerű egész számot adjon vissza. Hozz létre egy `/random` nevű végpontot az `app.py` fáljban, ami egy egyszerű szöveges válaszként ezt a számot adja vissza (vagyis ha újra és újra befrissítjük a [http://localhost:5000/random](http://localhost:5000/random) aloldalt a böngészőben, akkor mindig más és más véletlenszerű számot kapjunk). 
 
 **Commit-old, majd push-old fel a módosításaidat a saját (fork-olt) git repository-dba!**
 
