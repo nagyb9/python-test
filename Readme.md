@@ -40,7 +40,6 @@ Segítség: használd a [`requests`](https://pypi.org/project/requests/) python 
 **Commit-old, majd push-old fel a módosításaidat a saját (fork-olt) git repository-dba!**
 
 ## Záró feladat
+**Küldd vissza email-ben a fork-olt GitHub repository-d url-jét**. Ez alapján látni fogjuk a létrehozott branch-eket, bennük az egyes feladatok megoldásait. 
 
-Küldd vissza email-ben a fork-olt GitHub repository-d url-jét. Ez alapján látni fogjuk a létrehozott branch-eket, bennük az egyes feladatok megoldásait. 
-
-Köszönjük, hogy időt szántál a megoldásokra!
+**Köszönjük, hogy időt szántál a megoldásokra!**
