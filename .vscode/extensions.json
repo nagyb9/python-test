@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "humao.rest-client",
+    "twixes.pypi-assistant",
+    "esbenp.prettier-vscode",
+    "ms-python.vscode-pylance"
+  ]
+}

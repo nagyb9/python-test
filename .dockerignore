@@ -1,0 +1,7 @@
+log
+.vscode
+docker-compose.yml
+Dockerfile
+.gitignore
+.gitattributes
+.editorconfig
