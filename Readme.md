@@ -1,8 +1,12 @@
 # python-test
 
+<img src="images/python.png" height="100"/>
+<img src="images/flask.png" height="100"/>
+<img src="images/docker.png" height="100"/>
+
 ## 0. feladat
 
-Jelen forráskód egy Docker-ből futtatható Flask webalkalmazás. Legelőször fork-old a projektet a saját GitHub felhasználóddal, és hozd létre a következő branch-eket a `main` branch-ből:
+Jelen forráskód egy Docker-ből futtatható Python Flask webalkalmazás. Legelőször fork-old a projektet a saját GitHub felhasználóddal, és hozd létre a következő branch-eket a `main` branch-ből:
 
 - `task-01`
 - `task-02`
