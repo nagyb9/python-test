@@ -1,5 +1,4 @@
 from flask import Flask, make_response, render_template, Response
-from utils import get_random_dad_joke
 
 app = Flask(__name__)
 

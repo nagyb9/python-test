@@ -13,7 +13,7 @@ A feladatokat mindig a neki megfelelő branch-en végezd el!
 
 ## 1. feladat (task-01)
 
-Futtasd a projektet a saját gépeden (erősen javasolt, de nem kötelező a Docker használata). Hozz létre egy fájlt a gyökérkönyvtárba `app.log` néven, és másold be a konzol tartalmát, mely mutatja, hogy a Flask projekt sikeresen elindult. 
+Futtasd a projektet a saját gépeden (erősen javasolt, de nem kötelező a Docker használata). Hozz létre egy fájlt a gyökérkönyvtárban `app.log` néven, és másold bele a konzol tartalmát, mely mutatja, hogy a Flask projekt sikeresen elindult. 
 
 **Commit-old, majd push-old fel a módosításaidat a saját (fork-olt) git repository-dba!**
 
