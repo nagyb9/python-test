@@ -1,5 +1,7 @@
 # python-test
 
+> Python teszt feladat junior fejlesztők számára
+
 <img src="images/python.png" height="100"/> <img src="images/flask.png" height="100"/> <img src="images/docker.png" height="100"/>
 
 ## 0. feladat
