@@ -9,7 +9,7 @@ Jelen forráskód egy Docker-ből futtatható Flask webalkalmazás. Legelőször
 - `task-03`
 - `task-04`
 
-A feladatokat mindig a neki megfelelő branch-en végezd el!
+**_A feladatokat mindig a neki megfelelő branch-en végezd el!_**
 
 ## 1. feladat (task-01)
 
@@ -25,13 +25,14 @@ Módosítd a forráskódot, hogy a Flask webalkalmazás böngészőben történ�
 
 ## 3. feladat (task-03)
 
-Az `utils.py` fájlban hozz létre egy függvényt: `get_random_number`. Ez a függvény egy 1 és 100 közötti véletlenszerű egész számot adjon vissza. Hozz létre egy `/random` nevű végpontot az `app.py` fáljban, ami egy egyszerű szöveges válaszként ezt a számot adja vissza (vagyis ha újra és újra befrissítjük a `/random` aloldalt a böngészőben, akkor mindig más és más véletlenszerű számot kapunk). 
+Az `utils.py` fájlban hozz létre egy függvényt: `get_random_number`. Ez a függvény egy 1 és 100 közötti véletlenszerű egész számot adjon vissza. Hozz létre egy `/random` nevű végpontot az `app.py` fáljban, ami egy egyszerű szöveges válaszként ezt a számot adja vissza (vagyis ha újra és újra befrissítjük a [http://localhost:5000/random](http://localhost:5000/random) aloldalt a böngészőben, akkor mindig más és más véletlenszerű számot kapunk). 
 
 **Commit-old, majd push-old fel a módosításaidat a saját (fork-olt) git repository-dba!**
 
 ## 4. feladat (task-04)
 
-Az `utils.py` fájlban hozz létre egy függvényt: `get_random_dad_joke`. Ez a függvény meghívásakor hívjon ki a [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/) url-re egy `GET` kéréssel, és adja vissza a véletlenszerűen kapott válasz `joke` property-jét egyszerű szöveges válaszként. Hiba esetén adja vissza a `HTTP status code`-ot.
+Az `utils.py` fájlban hozz létre egy függvényt: `get_random_dad_joke`. Ez a függvény meghívásakor hívjon ki a [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/) url-re egy `GET` kéréssel, és adja vissza a véletlenszerűen kapott válasz `joke` property-jét. Hiba esetén adja vissza a `HTTP status code`-ot. Az `app.py`-ben hozz létre egy `/joke` nevű végpontot, és kösd be ide a függvényt úgy, hogy a válasz egyszerű szöveges válaszként maga a `joke` legyen.
+
 Segítség: használd a [`requests`](https://pypi.org/project/requests/) python lib-et (amennyiben Dockert használsz, már telepítve van). A szükséges API dokumentációja [itt található](https://icanhazdadjoke.com/api).
 
 **Commit-old, majd push-old fel a módosításaidat a saját (fork-olt) git repository-dba!**
