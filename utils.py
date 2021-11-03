@@ -1,4 +1,4 @@
 import random
 def num_gen():
-    x = random.randint(0,10000000)
+    x = random.randint(0,100)
     return x
